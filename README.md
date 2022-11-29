@@ -13,4 +13,5 @@ Two different approaches were taken for this task.
   * For this approach, after the initial filtering, the url's of the images were converted into OpenCV images using PIL and OpenCV.
   * Then, the image of the Flipkart product was matched with the filtered Amazon products, and Mean Squared Error, i.e., the distance between the images were calculated.
   * The image with the minimum diatance was considered as the match.
-<br> <br> The Word Embedding approach is a lot more accurate and took far less time as compared to the Image Similarity, so that approach should be considered for Product Matching.
+<br> <br>
+The Word Embedding approach is a lot more accurate and took far less time as compared to the Image Similarity, so that approach should be considered for Product Matching.
